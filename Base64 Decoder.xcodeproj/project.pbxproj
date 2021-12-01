@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		726FA00C275710500093C221 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726FA00B275710500093C221 /* main.swift */; };
 		726FA013275710620093C221 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726FA012275710620093C221 /* Errors.swift */; };
+		726FA016275711FE0093C221 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 726FA015275711FE0093C221 /* ArgumentParser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726FA016275711FE0093C221 /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +83,9 @@
 			dependencies = (
 			);
 			name = "Base64 Decoder";
+			packageProductDependencies = (
+				726FA015275711FE0093C221 /* ArgumentParser */,
+			);
 			productName = "Base64 Decoder";
 			productReference = 726FA008275710500093C221 /* Base64 Decoder */;
 			productType = "com.apple.product-type.tool";
@@ -109,6 +114,9 @@
 				Base,
 			);
 			mainGroup = 726F9FFF275710500093C221;
+			packageReferences = (
+				726FA014275711FE0093C221 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+			);
 			productRefGroup = 726FA009275710500093C221 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -290,6 +298,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		726FA014275711FE0093C221 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		726FA015275711FE0093C221 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 726FA014275711FE0093C221 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 726FA000275710500093C221 /* Project object */;
 }
