@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		726FA00C275710500093C221 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726FA00B275710500093C221 /* main.swift */; };
+		726FA013275710620093C221 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726FA012275710620093C221 /* Errors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		726FA008275710500093C221 /* Base64 Decoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Base64 Decoder"; sourceTree = BUILT_PRODUCTS_DIR; };
 		726FA00B275710500093C221 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		726FA012275710620093C221 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				726FA00B275710500093C221 /* main.swift */,
+				726FA012275710620093C221 /* Errors.swift */,
 			);
 			path = "Base64 Decoder";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726FA013275710620093C221 /* Errors.swift in Sources */,
 				726FA00C275710500093C221 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
